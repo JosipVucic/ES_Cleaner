@@ -365,9 +365,9 @@ public class ESystem extends JFrame {
 						
 						switch(model.getRobot_rotation()) {
 						case 90 -> {cell.setText("▲");}
-						case 180 -> {cell.setText("◀");}
+						case 180 -> {cell.setText("◄");}
 						case 270 -> {cell.setText("▼");}
-						case 0 -> {cell.setText("▶");}
+						case 0 -> {cell.setText("►");}
 						}
 					}
 				}
